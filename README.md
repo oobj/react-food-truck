@@ -1,28 +1,14 @@
-# React Food Truck
+# Oobj Visual Studio Code Extensions
 
-A collection of curated extensions for discerning React developers.
+A collection of curated extensions for Oobj developers using Visual Studio Code.
 
-![Food Truck](images/react-food-truck.png)
+## Extensions
 
-> Food Truck icon by [@reverentgeek](https://twitter.com/reverentgeek)
+### [Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)
 
-## On The Truck
+Debug your JavaScript code in the Chrome browser, or any other target that supports the Chrome Debugger protocol.
 
-### [Simple React Snippets](https://marketplace.visualstudio.com/items?itemName=burkeholland.simple-react-snippets)
-
-Only the cleanest, freshest set of React snippets in the market. Everything you
-need with no snippet bloat. Created by one of the nicest guys on the planet.
-
-![Simple React Snippets](https://github.com/burkeholland/simple-react-snippets/raw/master/images/snippets-in-action.gif)
-
-<hr>
-
-### [ES6 Snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets)
-
-All the best ES6 snippets at your finger tips. Why type `import` when you can
-type `imp`? It's three letters shorter. That's called productivity.
-
-![ES6 Snippets](https://i.imgur.com/u2SmUez.gif)
+![Debugger for Chrome](https://github.com/Microsoft/vscode-chrome-debug/blob/master/images/demo.gif?raw=true)
 
 <hr>
 
@@ -33,64 +19,42 @@ need that semicolon? Don't fret - Prettier knows.
 
 ![Prettier](https://i.imgur.com/LVvRCn3.gif)
 
-Add this to your User Preferences file for that premium "format on save"
-experience.
+<hr>
 
-```
-"editor.formatOnSave": true
-```
+### [Lit it](https://marketplace.visualstudio.com/items?itemName=mohseenrm.lit-it)
+
+Lit it is a lightweight lazy JSDoc builder, that recognizes the function signature and generates doc strings.
+
+![Lit it](https://raw.githubusercontent.com/mohseenrm/lit-it/master/images/demo.gif)
 
 <hr>
 
-### [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+### [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
 
-Your JavaScript is so solid, you don't need a linter. But if you did, it would
-be ESLint and you would use this extension.
-
-![ESLint](https://i.imgur.com/cZiENUM.gif)
-
-You can force Prettier to respect your ESLint rules by adding the following line
-to your User Settings...
-
-```
-"prettier.eslintIntegration": true
-```
+This plugin attempts to override user/workspace settings with settings found in .editorconfig files. No additional or vscode-specific files are required. As with any EditorConfig plugin, if root=true is not specified, EditorConfig will continue to look for an .editorconfig file outside of the project.
 
 <hr>
 
-### [npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)
+### [TSLint](https://marketplace.visualstudio.com/items?itemName=eg2.tslint)
 
-Stop guessing at your npm packages. You never get it right anyway. Is leftpad or
-left-pad? Not your problem anymore. This extension provides intellisense for
-your imports.
-
-![npm Intellisense](https://i.imgur.com/DUZ2EOv.gif)
+Integrates the tslint linter for the TypeScript language into VS Code.
 
 <hr>
 
-### [Exports Autocomplete](https://marketplace.visualstudio.com/items?itemName=capaj.vscode-exports-autocomplete)
+### [SVN](https://marketplace.visualstudio.com/items?itemName=johnstoncode.svn-scm)
 
-Still importing components manually? Why? Just use the component in your JSX and
-this extension will import it for you.
-
-![Exports Autocomplete](https://i.imgur.com/TM6l3o6.gif)
+Subversion source control for VS Code.
 
 <hr>
 
-### [CSS2React](https://marketplace.visualstudio.com/items?itemName=gottfired.css2react)
+### [XML Tools](https://marketplace.visualstudio.com/items?itemName=DotJoshJohnson.xml)
 
-You know how you copy/paste in some CSS to a React component, then you gotta fix
-it cause CSS isn't valid JavaScript? Never. again.
-
-![CSS2React](https://i.imgur.com/x0qoL0U.gif)
+XML Tools for Visual Studio Code.
 
 <hr>
 
-### [React Pure To Class](https://marketplace.visualstudio.com/items?itemName=angryobject.react-pure-to-class-vscode)
+### [VS Code JSHint extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.jshint)
 
-Do you need a class or a pure component? Nobody ever knows until they make a
-component and then realize this thing isn't nearly as dumb as they thought it
-was going to be and NOW they need a class. REFACTORING SUCKS. Converting pure
-components to classes is a breeze with this extension.
+Integrates JSHint into VS Code.
 
-![React Pure To Class](https://i.imgur.com/9CFgotn.gif)
+<hr>
