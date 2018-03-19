@@ -4,7 +4,7 @@
   "description":
     "A collection of curated extensions for Oobj developers using Visual Studio Code.",
   "version": "1.0.0",
-  "publisher": "raphael ferreira",
+  "publisher": "oobj",
   "icon": "images/oobj-logo.png",
   "repository": {
     "type": "git",
